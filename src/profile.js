@@ -1,13 +1,9 @@
-// Change website animations
+
 const animation = {
-  // make it false to switch off fade-up animation
   animate: true,
-  // animation playing duration
   duration: 750,
-  // if true, animation plays only once when element comes on screen
   once: false,
 };
-// Change your display name on tha landing display
 const header = {
   name: "Wonjin Cho",
 };
@@ -15,12 +11,11 @@ const background = {
   // Options: Snow or Particle
   type: "Snow",
 };
-// Write a para about yourself here
+
 // To update your image, go to './styles/images.css'
 const section2title = "About Me and Skills 🖥";
 const about = {
   paragraph:
-    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
     [
     `Flatiron School : Software Engineering (2021) 📓`, 
     `UMBC : Financial Economics(BS) (2011) 🎓`,
